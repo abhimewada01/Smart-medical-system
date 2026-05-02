@@ -1,0 +1,21 @@
+nano .gitignore
+node_modules/
+.env
+
+
+git init
+git add
+git commit -m "initial commit"
+
+  GNU nano 9.0                                  .gitignore                                   Modified
+nano .gitignore
+node_modules/
+.env
+
+
+git init
+git add
+git commit -m "initial commit"
+node_modules/
+.env
+
