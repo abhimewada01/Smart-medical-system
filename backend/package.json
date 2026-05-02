@@ -2,13 +2,15 @@
   "name": "smart-medical-backend",
   "version": "1.0.0",
   "description": "Backend API for Smart Medical Management System",
-  "main": "server.js",
+  "type": "module",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js",
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "build": "echo 'Build completed'",
     "test": "jest"
   },
-  "keywords": ["medical", "api", "nodejs", "express"],
+  "keywords": ["medical", "api", "nodejs", "express", "vercel"],
   "author": "Medical Team",
   "license": "MIT",
   "dependencies": {
@@ -28,5 +30,8 @@
     "nodemon": "^3.0.2",
     "jest": "^29.7.0",
     "supertest": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
